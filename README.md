@@ -16,7 +16,7 @@ Before data science, I was a registered Mechanical Engineer with a research back
 
 | Project | What it is |
 |---|---|
-| 🏗️ `nuclear-restart-decisioning` | *(in progress)* Decision-support modeling for nuclear capacity on Japanese energy market data — causal inference meets energy systems |
+| 🏗️ `japan-power-markets` | *(in progress)* Which reactor should Japan restart next? Causal effects of nuclear restarts on power prices, and a next-best-action layer for the idle fleet |
 | 💳 Customer lifecycle modeling | *(in progress)* Probabilistic lifecycle models (BTYD, survival analysis) on transactional payments data, framed as intervention decisions rather than churn prediction |
 | 🔬 LLM evaluation harness | *(in progress)* Open-source text-to-SQL eval framework with failure taxonomies, running local models via Ollama |
 | ☢️ Microreactor siting | GIS + ML feasibility analysis for microreactor deployment in the Philippines (MEng AI capstone) |
