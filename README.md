@@ -1,37 +1,33 @@
-<h1 align="center">Hi, I'm Ailene 👋</h1>
-<p align="center">
-  <b>Data Scientist — Applied LLM & Decisioning</b><br>
-  I build the systems that turn models into decisions.
-</p>
+# Hi, I'm Ailene 👋
 
----
+**Data Scientist — Applied LLM & Decisioning** at a Series C health-tech company, where I own the LLM and decisioning intelligence layer: next-best-action systems serving multiple Southeast Asian markets, a text-to-SQL analytics pipeline on locally deployed open-source models, and the evaluation and monitoring frameworks that keep them honest.
 
-I'm a data scientist working on the applied LLM and decisioning layer of a Series C health-tech platform — next-best-action systems, open-source model strategy, evaluation/monitoring frameworks, and compliance-by-design. I moved from analyst to data scientist in ~1.5 years by shipping things that ran in production, not just notebooks.
+Before data science, I was a registered Mechanical Engineer with a research background — two first-author publications on finite element analysis of flywheel energy storage rotors. I bring that systems-engineering lens to ML: decisions over predictions, failure modes over leaderboard scores.
 
-I think in systems: my background is in mechanical engineering (MSc, DLSU) and I'm completing an MEng in AI, so I tend to approach ML problems as end-to-end pipelines — from messy data to a decision someone can act on.
+## What I work on
 
-### What I focus on
-- **Decisioning & next-best-action** — turning predictions into ranked, actionable interventions
-- **Causal inference & uplift modeling** — measuring *effect*, not just correlation
-- **Applied LLMs** — text-to-SQL, retrieval, and local/open-source model pipelines
-- **Evaluation & monitoring** — systematic eval harnesses so model quality is measurable, not vibes
+**🎯 Decisioning & causal inference** — next-best-action systems, uplift modeling, customer lifecycle modeling. The question that interests me isn't "what will happen?" but "what should we do, for whom, and when?"
 
-### Tech
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat)
-![Optuna](https://img.shields.io/badge/Optuna-3860A8?style=flat)
-![statsmodels](https://img.shields.io/badge/statsmodels-4051B5?style=flat)
+**🤖 Applied LLMs** — local open-source model deployment (Ollama / Qwen), text-to-SQL, structured generation, and systematic evaluation: failure taxonomies, regression suites, and monitoring rather than vibes.
 
-Core stack: Python, SQL, NLP, clustering, A/B testing, scikit-learn, XGBoost, Optuna, statsmodels.
+**⚡ ML for energy & climate** — where my mechanical engineering background meets data science: GIS-based microreactor siting (Random Forest + SHAP, 88.3% test accuracy) and typhoon severity risk modeling for the Philippines.
 
-### Featured work
-- 🎯 **[Uplift / Next-Best-Action]** — *coming soon*
-- 💳 **[BNPL Loyalty & Retention Modeling]** — RFM segmentation, logistic regression, SMOTE, PR-AUC, tiered marketing
-- 🤖 **[LLM Evaluation Harness]** — *coming soon*
-- ⚛️ **[Microreactor Siting (PH)]** — GIS-based site optimization with Random Forest + SHAP
-- 🌀 **[Bantay Bagyo]** — typhoon monitoring / risk modeling
+## Selected work
 
-### Reach me
-[LinkedIn](https://www.linkedin.com/in/anmondares/) · Open to data science roles (incl. Japan 🇯🇵)
+| Project | What it is |
+|---|---|
+| 🏗️ `nuclear-restart-decisioning` | *(in progress)* Decision-support modeling for nuclear capacity on Japanese energy market data — causal inference meets energy systems |
+| 💳 Customer lifecycle modeling | *(in progress)* Probabilistic lifecycle models (BTYD, survival analysis) on transactional payments data, framed as intervention decisions rather than churn prediction |
+| 🔬 LLM evaluation harness | *(in progress)* Open-source text-to-SQL eval framework with failure taxonomies, running local models via Ollama |
+| ☢️ Microreactor siting | GIS + ML feasibility analysis for microreactor deployment in the Philippines (MEng AI capstone) |
+| 🌀 Bantay-Bagyo | Typhoon severity index modeling for Philippine disaster risk |
+
+## Toolbox
+
+`Python` `SQL` `scikit-learn` `XGBoost` `statsmodels` `Optuna` `Ollama` `pandas` `A/B testing` `Redshift`
+
+## Currently
+
+- 🎓 MEng in Artificial Intelligence (in progress) — Advanced ML + MLOps next semester
+- 🇯🇵 Studying Japanese (JLPT N4 ✅, N3 in progress) — open to data science roles in Japan, particularly fintech and applied LLM work
+- 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/abnmondares)
