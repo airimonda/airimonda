@@ -36,7 +36,6 @@ My projects split two ways: **deep learning / AI**, where I'm building up from c
 | 📊 [`vcm-benchmark`](https://github.com/airimonda/vcm-benchmark) | Live, standardized benchmark harness for Raspberry Pi voice assistants |
 | 🧮 [`mlops1_cnn-via-einsum`](https://github.com/airimonda/mlops1_cnn-via-einsum) | CNN on MNIST with custom layer math via `einops` / `torch.einsum` |
 | 🗣️ [`ai231-me2-voice-data`](https://github.com/airimonda/ai231-me2-voice-data) | Shared voice-recording pipeline for a course speech dataset, validated with whisper.cpp |
-| 🔬 LLM evaluation harness | *(in progress)* Open-source text-to-SQL eval framework with failure taxonomies, running local models via Ollama |
 
 **Decision sciences**
 
@@ -46,8 +45,6 @@ My projects split two ways: **deep learning / AI**, where I'm building up from c
 | 🌀 [`bantay_bagyo`](https://github.com/airimonda/bantay_bagyo) | Typhoon severity index modeling for Philippine disaster risk |
 | 🛰️ [`project_silaw`](https://github.com/airimonda/project_silaw) | Night-light pollution risk scoring + forecasting for Philippine Marine Protected Areas |
 | 🩺 [`diabetes_prediction_model`](https://github.com/airimonda/diabetes_prediction_model) | Clinical diabetes-risk classifier comparing logistic regression, decision tree, and random forest |
-| 🏗️ `japan-power-markets` | *(in progress)* Which reactor should Japan restart next? Causal effects of nuclear restarts on power prices, and a next-best-action layer for the idle fleet |
-| 💳 Customer lifecycle modeling | *(in progress)* Probabilistic lifecycle models (BTYD, survival analysis) on transactional payments data, framed as intervention decisions rather than churn prediction |
 
 ## Toolbox
 
