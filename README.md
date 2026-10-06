@@ -12,9 +12,19 @@ My projects split two ways: **deep learning / AI**, where I'm building up from c
 
 **🤖 Applied LLMs** — local open-source model deployment (Ollama / Qwen), text-to-SQL, structured generation, transformer-based embeddings, and prompt/context engineering. One production pipeline chains an LLM with validation and retry logic to assign standardized labels — in hindsight, an early, primitive agent harness, built before agent frameworks were standard tooling. Backed by systematic evaluation: failure taxonomies, regression suites, and monitoring rather than vibes.
 
-**🧠 Deep learning (in progress)** — MS AI coursework moving from classical ML into CNNs, transformers, and LLM pretraining/fine-tuning, with deployment via ONNX, TensorRT, and Triton.
+**🧠 Deep learning** — MS AI coursework moving from classical ML into CNNs, transformers, and LLM pretraining/fine-tuning, with deployment via ONNX, TensorRT, and Triton. Latest: a from-scratch speech model running live on a Raspberry Pi (see below).
 
 **⚡ ML for energy & climate** — where my mechanical engineering background meets data science: GIS-based microreactor siting (Random Forest + SHAP, 88.3% test accuracy) and typhoon severity risk modeling for the Philippines.
+
+## Featured: on-device voice command model
+
+🎙️ **[`vcm-me2`](https://github.com/airimonda/vcm-me2)** — a tiny voice assistant brain trained entirely from scratch (no pretrained weights, no ASR, no LLM) that runs offline on a Raspberry Pi 4.
+
+- Classifies a 5-second audio window into **19 commands + out-of-scope**, with slot heads for values like timer length, temperature, and color
+- **Six architectures benchmarked under one recipe** (DS-CNN, BC-ResNet, TC-ResNet, MatchboxNet, CRNN, tiny Conformer) at ~100k and ~300k parameters
+- Released model: 3-seed **Conformer ensemble** (883k params, 2.8 MB int8) — **94.3% balanced accuracy** on a speaker-disjoint test set vs. 87.3% for a size-matched DS-CNN baseline; real human voices remain the weak spot (77%), documented in the write-up
+- Log-mel front end + model export to a **single ONNX file** that needs only `onnxruntime` + `numpy`; **89 ms per window** on one Pi 4 core, **90.8% intent accuracy** in the live class benchmark
+- Also built the class tooling: [`vcm-benchmark`](https://github.com/airimonda/vcm-benchmark) (live, standardized Pi benchmark with latency/CPU/thermal logging) and [`ai231-me2-voice-data`](https://github.com/airimonda/ai231-me2-voice-data) (shared recording pipeline validated with whisper.cpp)
 
 ## Selected work
 
@@ -22,8 +32,10 @@ My projects split two ways: **deep learning / AI**, where I'm building up from c
 
 | Project | What it is |
 |---|---|
+| 🎙️ [`vcm-me2`](https://github.com/airimonda/vcm-me2) | From-scratch Conformer voice command model, ONNX on Raspberry Pi 4 (94.3% balanced acc., 89 ms/window) |
+| 📊 [`vcm-benchmark`](https://github.com/airimonda/vcm-benchmark) | Live, standardized benchmark harness for Raspberry Pi voice assistants |
 | 🧮 [`mlops1_cnn-via-einsum`](https://github.com/airimonda/mlops1_cnn-via-einsum) | CNN on MNIST with custom layer math via `einops` / `torch.einsum` |
-| 🎙️ [`ai231-me2-voice-data`](https://github.com/airimonda/ai231-me2-voice-data) | Shared voice-recording pipeline for a course speech dataset, validated with whisper.cpp |
+| 🗣️ [`ai231-me2-voice-data`](https://github.com/airimonda/ai231-me2-voice-data) | Shared voice-recording pipeline for a course speech dataset, validated with whisper.cpp |
 | 🔬 LLM evaluation harness | *(in progress)* Open-source text-to-SQL eval framework with failure taxonomies, running local models via Ollama |
 
 **Decision sciences**
@@ -39,7 +51,7 @@ My projects split two ways: **deep learning / AI**, where I'm building up from c
 
 ## Toolbox
 
-`Python` `SQL` `scikit-learn` `XGBoost` `statsmodels` `Optuna` `Ollama` `PyTorch` `Hugging Face` `pandas` `A/B testing` `Redshift`
+`Python` `SQL` `scikit-learn` `XGBoost` `statsmodels` `Optuna` `Ollama` `PyTorch` `ONNX Runtime` `Raspberry Pi` `Hugging Face` `pandas` `A/B testing` `Redshift`
 
 ## Currently
 
