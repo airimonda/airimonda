@@ -52,6 +52,6 @@ My projects split two ways: **deep learning / AI**, where I'm building up from c
 
 ## Currently
 
-- 🎓 MEng in Artificial Intelligence (in progress) — Advanced ML + MLOps next semester
-- 🇯🇵 Studying Japanese (JLPT N4 ✅, N3 in progress) — open to data science roles in Japan, particularly fintech and applied LLM work
+- 🎓 MEng in Artificial Intelligence, University of the Philippines
+- 🇯🇵 Studying Japanese (JLPT N4 ✅, N3 in progress) — open to data science roles in Japan
 - 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/abnmondares)
