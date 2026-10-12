@@ -1,24 +1,25 @@
 # Hi, I'm Ailene 👋
 
-**Data Scientist — Analytics, Experimentation & Decisioning** · open to **data analytics / data science roles in Japan** 🇯🇵
+**Applied Data Scientist — Decisioning, Experimentation & Applied LLMs** · open to **applied data science / decision science roles in Japan** 🇯🇵
 
-I turn messy business data into decisions: SQL on production warehouses, experiment design and A/B testing, customer lifecycle analysis, and forecasting — then I make the results usable by the people who act on them.
+I build models that change what a business does next: next-best-action and personalization systems, experiment design and uplift modeling, and LLM pipelines with real evaluation behind them — from SQL on the warehouse to a system in production.
 
 At a Series C health-tech company I own the decisioning and LLM layer for multiple Southeast Asian markets: next-best-action systems, a **text-to-SQL analytics pipeline** that lets non-technical teams query the warehouse, and the evaluation and monitoring frameworks behind them.
 
 Before data science, I was a registered Mechanical Engineer with two first-author research publications (finite element analysis of flywheel energy storage rotors). That background shapes how I work: clear problem framing, honest limitations, and decisions over leaderboard scores.
 
-> **日本語:** 東南アジア複数市場向けのヘルステック企業でデータサイエンティストとして、SQL分析、A/Bテスト、顧客ライフサイクル分析、意思決定支援システムを担当しています。日本でのデータアナリスト／データサイエンティスト職を希望しています。日本語学習中（JLPT N4 合格、N3 勉強中）。
+> **日本語:** 東南アジア複数市場向けのヘルステック企業でデータサイエンティストとして、Next Best Action などの意思決定システム、A/Bテスト、LLMを活用した分析パイプラインを担当しています。日本でのデータサイエンティスト職（応用・意思決定科学）を希望しています。日本語学習中（JLPT N4 合格、N3 勉強中）。
 
-## What I bring to an analytics team
+## What I bring
 
-- **📊 SQL & analytics engineering** — querying and modeling data in Redshift; built a text-to-SQL pipeline (locally deployed open-source LLMs + validation) so business users get answers without writing SQL
-- **🧪 Experimentation & causal inference** — A/B test design and readout, uplift modeling, hypothesis testing; the question is "what should we do, for whom, and when?"
-- **👥 Customer & lifecycle analytics** — segmentation, churn and engagement modeling, next-best-action recommendations
+- **🎯 Decisioning & personalization** — next-best-action systems across multiple markets, customer lifecycle and churn modeling; the question is "what should we do, for whom, and when?"
+- **🧪 Experimentation & causal inference** — A/B test design and readout, uplift modeling, hypothesis testing
+- **🤖 Applied LLMs** — locally deployed open-source models (Ollama / Qwen), text-to-SQL, structured generation with validation and retry, embeddings; evaluated with failure taxonomies and regression suites, not vibes
+- **📊 SQL & data foundations** — Redshift and PostgreSQL; the text-to-SQL pipeline lets business users query the warehouse without writing SQL
 - **📈 Forecasting & risk scoring** — time-series forecasting (ARIMA, Prophet), composite risk indices, geospatial analysis
 - **🗣️ Communicating results** — every project below has a plain-language summary, findings first, and a limitations section
 
-## Analytics projects
+## Applied data science projects
 
 | Project | Question answered | Methods |
 |---|---|---|
