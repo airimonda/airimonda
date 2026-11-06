@@ -32,9 +32,11 @@ Before data science, I was a registered Mechanical Engineer with two first-autho
 
 ## Latest work
 
-🗣️ **[`me3-full-duplex`](https://github.com/airimonda/me3-full-duplex)** — full-duplex voice assistant you can interrupt mid-sentence. Silero VAD with an echo-aware barge-in policy, speaker enrollment so it only answers its owner, local Whisper ASR and Kokoro TTS on Apple Silicon, 15 instant tools, and background tasks handed to a sandboxed agent. On a 28-trial Full-Duplex-Bench run: **0% take-over on pauses, 100% yield on interruptions**, side-talk / TV / noise rejected. Research-style write-up included.
+📱 **[`ai-heart`](https://github.com/airimonda/ai-heart)** — a private iPhone journal I built to manage my moods better: it helps me process what I feel and shows how sleep, cycle, training and mood move together. On-device AI (Qwen3-VL 4B via MLX) by default, with an optional cloud model behind on-phone redaction. Notes follow the CBT five-part model, "honest things to hold" are written only from my own words and checked by fixed rules, and a six-step safety plan and a PDF report for a therapist are one tap away. Every feature is mapped to published research, with its limits written down. The mood outlook stays hidden until it beats two naive baselines in a rolling backtest.
 
-📱 **[`ai-heart`](https://github.com/airimonda/ai-heart)** — private iPhone journal that relates mood to sleep, cycle, labs, training and media. Data and models stay on the phone by default. Insights use a personal 28-day baseline instead of population norms; the per-day mood outlook stays "Not yet" until it beats two naive baselines in a rolling backtest.
+<a href="https://github.com/airimonda/ai-heart/blob/main/docs/film.mp4"><img src="https://raw.githubusercontent.com/airimonda/ai-heart/main/docs/screenshots/film-poster.png" width="480" alt="Watch the AiHeart film"></a>
+
+🗣️ **[`me3-full-duplex`](https://github.com/airimonda/me3-full-duplex)** — full-duplex voice assistant you can interrupt mid-sentence. Silero VAD with an echo-aware barge-in policy, speaker enrollment so it only answers its owner, local Whisper ASR and Kokoro TTS on Apple Silicon, 15 instant tools, and background tasks handed to a sandboxed agent. On a 28-trial Full-Duplex-Bench run: **0% take-over on pauses, 100% yield on interruptions**, side-talk / TV / noise rejected. Research-style write-up included.
 
 🛠️ **[`claude-orc`](https://github.com/airimonda/claude-orc)** — one-command orchestrator: Claude Code plans and reviews, cheaper hosted and local models do the building.
 
