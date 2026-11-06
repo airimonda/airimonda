@@ -30,6 +30,14 @@ Before data science, I was a registered Mechanical Engineer with two first-autho
 | 🗂️ [`DataCampProjects`](https://github.com/airimonda/DataCampProjects) | 48 SQL and Python case studies | SQL, A/B testing, hypothesis testing, churn, customer analytics |
 | 💰 [`bb-finances`](https://github.com/airimonda/bb-finances) | Am I on budget this month? | Personal finance dashboard: burn rate, anomaly alerts, savings projection |
 
+## Latest work
+
+🗣️ **[`me3-full-duplex`](https://github.com/airimonda/me3-full-duplex)** — full-duplex voice assistant you can interrupt mid-sentence. Silero VAD with an echo-aware barge-in policy, speaker enrollment so it only answers its owner, local Whisper ASR and Kokoro TTS on Apple Silicon, 15 instant tools, and background tasks handed to a sandboxed agent. On a 28-trial Full-Duplex-Bench run: **0% take-over on pauses, 100% yield on interruptions**, side-talk / TV / noise rejected. Research-style write-up included.
+
+📱 **[`ai-heart`](https://github.com/airimonda/ai-heart)** — private iPhone journal that relates mood to sleep, cycle, labs, training and media. Data and models stay on the phone by default. Insights use a personal 28-day baseline instead of population norms; the per-day mood outlook stays "Not yet" until it beats two naive baselines in a rolling backtest.
+
+🛠️ **[`claude-orc`](https://github.com/airimonda/claude-orc)** — one-command orchestrator: Claude Code plans and reviews, cheaper hosted and local models do the building.
+
 ## Machine learning & engineering
 
 🎙️ **[`vcm-me2`](https://github.com/airimonda/vcm-me2)** — voice command model trained from scratch, running offline on a Raspberry Pi 4. Six architectures benchmarked under one recipe; released ensemble reaches **94.3% balanced accuracy** on a speaker-disjoint test set at **89 ms per window**. Shows controlled evaluation and honest error analysis (real human voices remain the weak spot at 77%, documented).
@@ -41,7 +49,8 @@ Also: [`vcm-benchmark`](https://github.com/airimonda/vcm-benchmark) (standardize
 **Analytics:** `SQL` `Redshift` `PostgreSQL` `Python` `pandas` `statsmodels` `SciPy` `A/B testing`
 **Modeling:** `scikit-learn` `XGBoost` `Optuna` `SHAP` `Prophet` `PyTorch`
 **Geospatial:** `GeoPandas` `rasterio` `Google Earth Engine`
-**LLMs & deployment:** `Ollama` `Hugging Face` `ONNX Runtime`
+**LLMs & deployment:** `Ollama` `Hugging Face` `ONNX Runtime` `MLX` `Pipecat`
+**Speech & mobile:** `Whisper` `Kokoro TTS` `Silero VAD` `Swift` `SwiftUI`
 
 ## Currently
 
